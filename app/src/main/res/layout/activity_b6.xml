@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+
+    <Button
+        android:gravity="center"
+        android:onClick="x1111"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/m1"
+        android:drawableRight="@drawable/ic_white_blood_cell__1_"
+        android:fontFamily="@font/h2"
+       android:padding="5dp"
+        android:text="ماهي كريات الدم البيض؟"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_23sdp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="x3333"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            android:fontFamily="@font/h2"
+            android:text="من ماذا تتكون كريات الدم البيض"
+            android:drawableLeft="@drawable/ic_vitamin"
+            android:layout_marginLeft="5dp"
+            android:padding="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/m3"/>
+
+
+        <Button
+            android:onClick="x2222"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            android:fontFamily="@font/h2"
+            android:text="ما هي الوظيفة الاساسية لكريات الدم البيضاء؟"
+            android:drawableBottom="@drawable/ic_confused"
+           android:paddingBottom="28dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/m2"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:gravity="center"
+        android:onClick="x4444"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_25sdp"
+        android:fontFamily="@font/h2"
+        android:text="أنواع خلايا الدم البيضاء"
+        android:drawableLeft="@drawable/ic_doctor__2_"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingRight="@dimen/_10sdp"
+        android:background="@drawable/m4"/>
+
+
+
+
+</LinearLayout>

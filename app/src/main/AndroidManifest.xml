@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doc_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Doc_App">
+        <activity android:name=".result" />
+        <activity android:name=".quiz" />
+        <activity android:name=".b64" />
+        <activity android:name=".b63" />
+        <activity android:name=".b62" />
+        <activity android:name=".b61" />
+        <activity android:name=".b54" />
+        <activity android:name=".b53" />
+        <activity android:name=".b52" />
+        <activity android:name=".b51" />
+        <activity android:name=".b44" />
+        <activity android:name=".b43" />
+        <activity android:name=".b42" />
+        <activity android:name=".b41" />
+        <activity android:name=".b34" />
+        <activity android:name=".b33" />
+        <activity android:name=".b32" />
+        <activity android:name=".b31" />
+        <activity android:name=".b6" />
+        <activity android:name=".b5" />
+        <activity android:name=".b4" />
+        <activity android:name=".b3" />
+        <activity
+            android:name=".b2"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".b1"
+            android:parentActivityName=".MainActivity2" />
+        <activity
+            android:name=".MainActivity2"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

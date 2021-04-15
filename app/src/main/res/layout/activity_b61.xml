@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_white_blood_cell__1_"
+            android:paddingLeft="8dp"/>
+
+
+        <TextView
+            android:padding="5dp"
+            android:gravity="center"
+            android:background="@drawable/b31"
+            android:layout_margin="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:fontFamily="@font/h3"
+            android:text="ماهي كريات الدم البيض؟"/>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/texview1111"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:background="@drawable/b31_x_"
+            android:fontFamily="@font/h3"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sdp" />
+    </ScrollView>
+
+</LinearLayout>

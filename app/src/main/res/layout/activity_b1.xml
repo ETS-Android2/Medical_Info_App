@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+
+
+    <TextView
+        android:textSize="@dimen/_20ssp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:background="@drawable/section1"
+        android:text="اعراض المشاكل النفسية"
+        android:textColor="@color/black"
+        android:fontFamily="@font/h5"
+        />
+
+    <ScrollView
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        >
+        <TextView
+        android:id="@+id/symp"
+        android:padding="33dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/section11"
+        android:textColor="@color/black"
+        android:fontFamily="@font/h3"
+        android:autoSizeTextType="uniform"
+        android:textSize="@dimen/_15ssp"
+        />
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

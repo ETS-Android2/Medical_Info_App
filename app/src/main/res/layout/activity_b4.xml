@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+
+    <Button
+        android:gravity="center"
+        android:onClick="x11"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_23sdp"
+        android:fontFamily="@font/h2"
+        android:text="اكثر امراض الجهاز الهضمي شيوعاً؟"
+        android:drawableRight="@drawable/ic_digestion"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/m1"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:gravity="center"
+            android:onClick="x33"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            android:fontFamily="@font/h2"
+            android:text="معالجة امراض الجهاز الهضمي"
+            android:drawableLeft="@drawable/ic_vitamin"
+            android:paddingRight="20dp"
+            android:paddingTop="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/m3"/>
+
+
+        <Button
+            android:gravity="center"
+            android:onClick="x22"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_18sdp"
+            android:fontFamily="@font/h2"
+            android:text="اسباب امراض الجهاز الهضمي؟"
+            android:drawableBottom="@drawable/ic_confused"
+            android:paddingBottom="25dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/m2"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:gravity="center"
+        android:onClick="x44"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_20sdp"
+        android:fontFamily="@font/h2"
+        android:text="طرق وخطوات للحفاظ على صحة جهازك الهضمي"
+        android:drawableLeft="@drawable/ic_doctor__2_"
+        android:paddingRight="35dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/m4"/>
+
+
+
+
+</LinearLayout>

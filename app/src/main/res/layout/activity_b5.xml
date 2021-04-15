@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+
+    <Button
+        android:gravity="center"
+        android:onClick="x111"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_25sdp"
+        android:fontFamily="@font/h2"
+        android:text="اكثر امراض الدماغ شيوعاً؟"
+        android:drawableRight="@drawable/ic_brain__1_"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/m1"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="x333"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sdp"
+            android:fontFamily="@font/h2"
+            android:text="معالجة امراض الدماغ"
+            android:drawableLeft="@drawable/ic_vitamin"
+            android:paddingRight="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/m3"/>
+
+
+        <Button
+            android:onClick="x222"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sdp"
+            android:fontFamily="@font/h2"
+            android:text="اسباب امراض الدماغ؟"
+            android:drawableBottom="@drawable/ic_confused"
+            android:paddingBottom="28dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/m2"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:gravity="center"
+        android:onClick="x444"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_25sdp"
+        android:fontFamily="@font/h2"
+        android:text="طرق وخطوات للحفاظ على صحة خلايا المخ"
+        android:drawableLeft="@drawable/ic_doctor__2_"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingRight="35dp"
+        android:layout_weight="1"
+        android:background="@drawable/m4"/>
+
+
+
+
+</LinearLayout>

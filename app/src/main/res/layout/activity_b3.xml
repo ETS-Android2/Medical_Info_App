@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+
+
+    <Button
+        android:gravity="center"
+        android:textSize="@dimen/_25sdp"
+        android:paddingLeft="55dp"
+        android:onClick="x1"
+        android:textColor="@color/black"
+        android:fontFamily="@font/h2"
+        android:text="اكثر امراض الجهاز التنفسي شيوعاً؟"
+        android:drawableRight="@drawable/ic_infected"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/m1"
+        tools:ignore="UnusedAttribute" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="x3"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sdp"
+            android:gravity="center"
+            android:fontFamily="@font/h2"
+            android:text="معالجة امراض الرئة"
+            android:drawableLeft="@drawable/ic_vitamin"
+            android:paddingRight="20dp"
+            android:paddingTop="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/m3"/>
+
+
+        <Button
+            android:onClick="x2"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20sdp"
+            android:fontFamily="@font/h2"
+            android:text="اسباب امراض الرئتين؟"
+            android:drawableBottom="@drawable/ic_confused"
+            android:paddingBottom="50dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/m2"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:onClick="x4"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_25sdp"
+        android:fontFamily="@font/h2"
+        android:text="طرق وخطوات للحفاظ على صحة جهازك التنفسي"
+        android:drawableLeft="@drawable/ic_doctor__2_"
+        android:paddingRight="40dp"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/m4"/>
+
+
+
+
+</LinearLayout>

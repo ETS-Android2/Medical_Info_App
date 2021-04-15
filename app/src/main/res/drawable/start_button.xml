@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <corners
+        android:topRightRadius="777dp"
+        android:topLeftRadius="777dp"
+        android:bottomRightRadius="30dp"
+        android:bottomLeftRadius="30dp"
+        />
+
+    <solid
+        android:color="@color/AppBar1"/>
+
+</shape>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<shape xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    android:shape="oval">-->
+
+
+
+    <!--    <solid android:color="#9FE554" />-->
+
+    <!--    <size-->
+    <!--        android:height="60dp"-->
+    <!--        android:width="60dp" />-->
+
+
+
+    <!--</shape>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<shape xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+    <!--    <solid-->
+    <!--        android:color="#F57F17"/>-->
+
+    <!--    <stroke-->
+    <!--        android:width="3dp" />-->
+
+    <!--    <corners-->
+    <!--        android:radius="25dp"/>-->
+
+    <!--</shape>-->
+
+    <!--<stroke-->
+    <!--    android:color="#1E88E5"-->
+    <!--    android:width="8dp"-->
+    <!--    ></stroke>-->
+    <!--<corners-->
+    <!--    android:radius="50dp"></corners>-->
+    <!--&lt;!&ndash;    android:topRightRadius="50dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;    android:bottomLeftRadius="50dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;    />&ndash;&gt;-->
+    <!--</shape>-->

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+
+<include layout="@layout/toolbar"
+    android:id="@+id/toolbar"/>
+
+    <TextView
+        android:id="@+id/tvv"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:drawableTop="@drawable/ic_result"
+        android:fontFamily="@font/h3"
+        android:gravity="center"
+        android:text="نتيجة الاختبار"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/_15sdp"
+        />
+
+
+    <TextView
+        android:layout_marginRight="@dimen/_20sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:id="@+id/tvres3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_above="@+id/btnRestart"
+        android:gravity="center"
+        android:background="@drawable/b31_xx"
+        android:fontFamily="@font/h2"
+        android:text="لابلاينمبلىيكلالي"
+        android:textColor="#000000"
+        android:textSize="@dimen/_15sdp"
+        />
+
+
+    <TextView
+        android:id="@+id/tvo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_above="@+id/btnRestart"
+
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/b31_xx"
+        android:fontFamily="@font/h2"
+        android:gravity="center"
+        android:text="بلااكخهقيالهخكفقابفلهكخعا"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_25sdp"/>
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btnRestart"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/circular_button"
+        android:fontFamily="@font/h2"
+        android:text="الرجوع الى القائمة الرئيسية"
+        android:textColor="#000000"
+        android:textSize="@dimen/_20sdp"/>
+
+
+
+</LinearLayout>

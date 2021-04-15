@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+
+   <Button
+
+       android:textSize="@dimen/_15ssp"
+       android:padding="5dp"
+        android:onClick="prevent"
+        android:layout_margin="5dp"
+        android:drawableTop="@drawable/ic_prevent"
+        android:background="@drawable/buttonr"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="الوقاية من الامراض النفسية"
+        android:fontFamily="@font/h5"/>
+
+
+    <Button
+        android:onClick="symp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/buttonl"
+        android:drawableTop="@drawable/ic_anxiety"
+        android:fontFamily="@font/h5"
+        android:padding="5dp"
+        android:text="اعراض المشاكل النفسية"
+        android:textSize="@dimen/_14ssp"
+        />
+
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:textSize="@dimen/_15ssp"
+            android:onClick="b4"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:drawableTop="@drawable/ic_stomach"
+            android:background="@drawable/buttond"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="اعرف اكثر عن الجاهز الهضمي"
+            android:fontFamily="@font/h5"/>
+
+
+        <Button
+            android:textSize="@dimen/_15ssp"
+            android:onClick="b3"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:drawableTop="@drawable/ic_lung"
+            android:background="@drawable/buttonu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="اعرف اكثر عن الجهاز التنفسي"
+
+            android:fontFamily="@font/h5"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:textSize="@dimen/_15ssp"
+            android:onClick="b6"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:drawableTop="@drawable/ic_white_blood_cell"
+            android:background="@drawable/buttony"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="سلاحنا الأساسي كريات الدم البيض"
+
+            android:fontFamily="@font/h5"/>
+
+
+        <Button
+            android:textSize="@dimen/_17ssp"
+            android:onClick="b5"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:drawableTop="@drawable/ic_brain"
+            android:background="@drawable/buttonx"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="اعرف اكثر عن الدماغ"
+            android:fontFamily="@font/h5"/>
+
+    </LinearLayout>
+
+
+    <Button
+
+        android:textSize="@dimen/_30ssp"
+        android:onClick="survey_page"
+        android:drawableRight="@drawable/ic_test"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:background="@drawable/buttonservey"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="اختبار الصحة النفسية السريع"
+        android:fontFamily="@font/h5"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+
+<!--    android:background="@drawable/back">-->
+
+<!--    <include-->
+<!--        android:id="@+id/toolbar"-->
+<!--        layout="@layout/toolbar" />-->
+
+
+<!--    <ImageView-->
+<!--        android:padding="5dp"-->
+<!--        android:id="@+id/imgV"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:src="@drawable/ic_health_insurance"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/toolbar" />-->
+
+<!--    <GridLayout-->
+<!--        android:id="@+id/gridLayout2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="5sp"-->
+<!--        android:layout_marginTop="225dp"-->
+<!--        android:columnCount="2"-->
+<!--        android:rowCount="3"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imgV"-->
+<!--        tools:layout_editor_absoluteX="5dp">-->
+
+
+<!--        <Button-->
+<!--            android:id="@+id/button4"-->
+<!--            android:layout_rowWeight="1"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_gravity="fill"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/buttonr"-->
+<!--            android:drawableTop="@drawable/ic_prevent"-->
+<!--            android:fontFamily="@font/h5"-->
+<!--            android:onClick="prevent"-->
+<!--            android:padding="5dp"-->
+<!--            android:text="الوقاية من الامراض النفسية" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button5"-->
+<!--            android:layout_rowWeight="1"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_gravity="fill"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/buttonr"-->
+<!--            android:drawableTop="@drawable/ic_anxiety"-->
+<!--            android:fontFamily="@font/h5"-->
+<!--            android:onClick="symp"-->
+<!--            android:padding="5dp"-->
+<!--            android:text="اعراض المشاكل النفسية" />-->
+
+<!--        <Button-->
+<!--            android:layout_rowWeight="1"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_gravity="fill"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/buttonr"-->
+<!--            android:drawableTop="@drawable/ic_stomach"-->
+<!--            android:fontFamily="@font/h5"-->
+<!--            android:onClick="b4"-->
+<!--            android:padding="5dp"-->
+<!--            android:text="اعرف اكثر عن الجاهز الهضمي" />-->
+
+
+<!--        <Button-->
+<!--            android:layout_rowWeight="1"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_gravity="fill"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/buttonr"-->
+<!--            android:drawableTop="@drawable/ic_lung"-->
+<!--            android:fontFamily="@font/h5"-->
+<!--            android:onClick="b3"-->
+<!--            android:padding="5sp"-->
+<!--            android:text="اعرف اكثر عن الجهاز التنفسي" />-->
+
+<!--        <Button-->
+<!--            android:layout_rowWeight="1"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_gravity="fill"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/buttonr"-->
+<!--            android:drawableTop="@drawable/ic_white_blood_cell"-->
+<!--            android:fontFamily="@font/h5"-->
+<!--            android:onClick="b6"-->
+<!--            android:padding="5dp"-->
+<!--            android:text="كريات الدم البيض" />-->
+
+
+<!--        <Button-->
+<!--            android:layout_rowWeight="1"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_gravity="fill"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:background="@drawable/buttonr"-->
+<!--            android:drawableTop="@drawable/ic_brain"-->
+<!--            android:fontFamily="@font/h5"-->
+<!--            android:onClick="b5"-->
+<!--            android:padding="5dp"-->
+<!--            android:text="اعرف اكثر عن الدماغ" />-->
+
+<!--    </GridLayout>-->
+
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="130dp"-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginEnd="10dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:background="@drawable/buttonservey"-->
+<!--        android:drawableRight="@drawable/ic_test"-->
+<!--        android:fontFamily="@font/h5"-->
+<!--        android:onClick="survey_page"-->
+<!--        android:padding="15dp"-->
+<!--        android:text="اختبار الصحة النفسية السريع"-->
+<!--        app:autoSizeTextType="uniform"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/gridLayout2" />-->
+
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+
+
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_margin="5dp">-->
+<!--<LinearLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="0dp"-->
+<!--    android:layout_weight="1"-->
+<!--    android:orientation="horizontal">-->
+<!--    <Button-->
+<!--        android:onClick="prevent"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:padding="15dp"-->
+<!--        android:drawableTop="@drawable/ic_prevent"-->
+<!--        android:background="@drawable/buttonr"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_weight="1"-->
+<!--        android:text="الوقاية من الامراض النفسية"-->
+<!--        android:textSize="25dp"-->
+<!--        android:fontFamily="@font/h5"/>-->
+
+
+<!--    <Button-->
+<!--        android:onClick="symp"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:background="@drawable/buttonl"-->
+<!--        android:drawableTop="@drawable/ic_anxiety"-->
+<!--        android:fontFamily="@font/h5"-->
+<!--        android:padding="10dp"-->
+<!--        android:text=" اعراض المشاكل النفسية"-->
+<!--        android:textSize="25dp" />-->
+
+<!--</LinearLayout>-->
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:orientation="horizontal">-->
+
+
+<!--        <Button-->
+<!--            android:onClick="b4"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:padding="15dp"-->
+<!--            android:drawableTop="@drawable/ic_stomach"-->
+<!--            android:background="@drawable/buttond"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="اعرف اكثر عن الجاهز الهضمي"-->
+<!--            android:textSize="25dp"-->
+<!--            android:fontFamily="@font/h5"/>-->
+
+
+<!--        <Button-->
+<!--            android:onClick="b3"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:padding="15dp"-->
+<!--            android:drawableTop="@drawable/ic_lung"-->
+<!--            android:background="@drawable/buttonu"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="اعرف اكثر عن الجهاز التنفسي"-->
+<!--            android:textSize="25dp"-->
+<!--            android:fontFamily="@font/h5"/>-->
+
+<!--    </LinearLayout>-->
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:orientation="horizontal">-->
+
+
+<!--        <Button-->
+<!--            android:onClick="b6"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:padding="15dp"-->
+<!--            android:drawableTop="@drawable/ic_white_blood_cell"-->
+<!--            android:background="@drawable/buttony"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="سلاحنا الأساسي كريات الدم البيض"-->
+<!--            android:textSize="25dp"-->
+<!--            android:fontFamily="@font/h5"/>-->
+
+
+<!--        <Button-->
+<!--            android:onClick="b5"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:padding="15dp"-->
+<!--            android:drawableTop="@drawable/ic_brain"-->
+<!--            android:background="@drawable/buttonx"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="اعرف اكثر عن-->
+<!--            الدماغ"-->
+<!--            android:textSize="30dp"-->
+<!--            android:fontFamily="@font/h5"/>-->
+
+<!--    </LinearLayout>-->
+
+
+<!--    <Button-->
+
+<!--        android:onClick="survey_page"-->
+
+<!--        android:drawableRight="@drawable/ic_test"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:padding="15dp"-->
+<!--        android:background="@drawable/buttonservey"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:text="اختبار الصحة النفسية السريع"-->
+<!--        android:textSize="45dp"-->
+<!--        android:fontFamily="@font/h5"/>-->
+
+<!--    </LinearLayout>-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:background="@drawable/back">-->
+<!--    <include layout="@layout/toolbar"-->
+<!--        android:id="@+id/toolbar"/>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_margin="5dp">-->
+<!--<LinearLayout-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="0dp"-->
+<!--    android:layout_weight="1"-->
+<!--    android:orientation="horizontal">-->
+<!--    <Button-->
+<!--        android:onClick="prevent"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:padding="15dp"-->
+<!--        android:drawableTop="@drawable/ic_prevent"-->
+<!--        android:background="@drawable/buttonr"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_weight="1"-->
+<!--        android:text="الوقاية من الامراض النفسية"-->
+<!--        android:textSize="25dp"-->
+<!--        android:fontFamily="@font/h5"/>-->
+
+
+<!--    <Button-->
+<!--        android:onClick="symp"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:background="@drawable/buttonl"-->
+<!--        android:drawableTop="@drawable/ic_anxiety"-->
+<!--        android:fontFamily="@font/h5"-->
+<!--        android:padding="10dp"-->
+<!--        android:text=" اعراض المشاكل النفسية"-->
+<!--        android:textSize="25dp" />-->
+
+<!--</LinearLayout>-->
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:orientation="horizontal">-->
+
+
+<!--        <Button-->
+<!--            android:onClick="b4"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:padding="15dp"-->
+<!--            android:drawableTop="@drawable/ic_stomach"-->
+<!--            android:background="@drawable/buttond"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="اعرف اكثر عن الجاهز الهضمي"-->
+<!--            android:textSize="25dp"-->
+<!--            android:fontFamily="@font/h5"/>-->
+
+
+<!--        <Button-->
+<!--            android:onClick="b3"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:padding="15dp"-->
+<!--            android:drawableTop="@drawable/ic_lung"-->
+<!--            android:background="@drawable/buttonu"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="اعرف اكثر عن الجهاز التنفسي"-->
+<!--            android:textSize="25dp"-->
+<!--            android:fontFamily="@font/h5"/>-->
+
+<!--    </LinearLayout>-->
+
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:orientation="horizontal">-->
+
+
+<!--        <Button-->
+<!--            android:onClick="b6"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:padding="15dp"-->
+<!--            android:drawableTop="@drawable/ic_white_blood_cell"-->
+<!--            android:background="@drawable/buttony"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="سلاحنا الأساسي كريات الدم البيض"-->
+<!--            android:textSize="25dp"-->
+<!--            android:fontFamily="@font/h5"/>-->
+
+
+<!--        <Button-->
+<!--            android:onClick="b5"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:padding="15dp"-->
+<!--            android:drawableTop="@drawable/ic_brain"-->
+<!--            android:background="@drawable/buttonx"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="اعرف اكثر عن-->
+<!--            الدماغ"-->
+<!--            android:textSize="30dp"-->
+<!--            android:fontFamily="@font/h5"/>-->
+
+<!--    </LinearLayout>-->
+
+
+<!--    <Button-->
+
+<!--        android:onClick="survey_page"-->
+
+<!--        android:drawableRight="@drawable/ic_test"-->
+<!--        android:layout_margin="5dp"-->
+<!--        android:padding="15dp"-->
+<!--        android:background="@drawable/buttonservey"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:text="اختبار الصحة النفسية السريع"-->
+<!--        android:textSize="45dp"-->
+<!--        android:fontFamily="@font/h5"/>-->
+
+<!--    </LinearLayout>-->
+
+<!--</LinearLayout>-->
