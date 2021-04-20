@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
+<ripple
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/white">
 
 
-    <corners
-        android:topRightRadius="777dp"
-        android:topLeftRadius="777dp"
-        android:bottomRightRadius="30dp"
-        android:bottomLeftRadius="30dp"
-        />
 
-    <solid
-        android:color="@color/AppBar1"/>
+    <item>
+        <shape>
 
-</shape>
+            <corners
+                android:topRightRadius="777dp"
+                android:topLeftRadius="777dp"
+                android:bottomRightRadius="30dp"
+                android:bottomLeftRadius="30dp"
+                />
+
+            <solid
+                android:color="@color/AppBar1"/>
+        </shape>
+    </item>
+
+
+</ripple>
 
 
     <!--<?xml version="1.0" encoding="utf-8"?>-->
