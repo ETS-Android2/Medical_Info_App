@@ -9,8 +9,7 @@
         <corners
 
 
-            android:topRightRadius="500dp"
-            android:topLeftRadius="150dp"
+            android:radius="@dimen/_25sdp"
             />
 
         <!--        android:topLeftRadius="50dp"-->

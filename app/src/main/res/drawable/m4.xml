@@ -11,9 +11,7 @@
 
 
 
-            android:topRightRadius="5000dp"
-            android:bottomLeftRadius="100dp"
-            android:bottomRightRadius="100dp"/>
+            android:radius="@dimen/_25sdp"/>
 
 
 

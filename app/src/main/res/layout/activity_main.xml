@@ -18,7 +18,7 @@
         android:text="Your Biggest Wealth Is Your Health"
         android:textSize="@dimen/_15ssp"
         android:fontFamily="@font/h3"
-        android:textColor="#FFD600"/>
+        android:textColor="#FFFFFF"/>
 
 
     <ImageView

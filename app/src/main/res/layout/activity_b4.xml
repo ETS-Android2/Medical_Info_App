@@ -10,6 +10,7 @@
 
 
     <Button
+        android:layout_margin="@dimen/_5sdp"
         android:gravity="center"
         android:onClick="x11"
         android:textColor="@color/black"
@@ -33,6 +34,7 @@
         android:orientation="horizontal">
 
         <Button
+            android:layout_margin="@dimen/_5sdp"
             android:gravity="center"
             android:onClick="x33"
             android:textColor="@color/black"
@@ -40,7 +42,7 @@
             android:fontFamily="@font/h2"
             android:text="معالجة امراض الجهاز الهضمي"
             android:drawableLeft="@drawable/ic_vitamin"
-            android:paddingRight="20dp"
+            android:padding="@dimen/_5sdp"
             android:paddingTop="25dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
@@ -51,16 +53,16 @@
 
 
         <Button
+            android:layout_margin="@dimen/_5sdp"
             android:gravity="center"
             android:onClick="x22"
             android:textColor="@color/black"
             android:textSize="@dimen/_18sdp"
             android:fontFamily="@font/h2"
+
             android:text="اسباب امراض الجهاز الهضمي؟"
             android:drawableBottom="@drawable/ic_confused"
-            android:paddingBottom="25dp"
-            android:layout_marginLeft="0dp"
-            android:layout_marginRight="5dp"
+            android:padding="@dimen/_5sdp"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -70,6 +72,7 @@
     </LinearLayout>
 
     <Button
+        android:layout_margin="@dimen/_5sdp"
         android:gravity="center"
         android:onClick="x44"
         android:textColor="@color/black"
